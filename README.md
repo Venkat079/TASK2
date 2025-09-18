@@ -1,56 +1,71 @@
-Internship Task 2 – AcmeCloud (Nunjucks + Vite)
-📌 Objective
+# Internship Task 2 – Nunjucks + Vite
 
+## 📌 Objective
 Recreate Task 1 using:
+- **Nunjucks** as the templating engine
+- **Vite** as the bundler/task runner
 
-Nunjucks as the templating engine
+## 📂 Folder Structure
+- `src/templates/` → Nunjucks templates (.njk)
+- `src/assets/` → CSS, JS, images
+- `docs/` → Compiled HTML output (for GitHub Pages)
 
-Vite as the bundler/task runner
-
-Pages included: Home, About, Contact
-
-📂 Folder Structure
-
-src/templates/ → Nunjucks templates (.njk)
-
-src/assets/ → CSS, JS, images
-
-docs/ → Compiled HTML output (for GitHub Pages deployment)
-
-🛠️ How to Run
-
-Install dependencies
-
+## 🛠️ How to Run
+### Install dependencies and run build and run development server
 npm install
-
-
-Build project
 
 npm run build
 
+npm run dev
+   
+Final output files are available inside the `/docs` folder (used for GitHub Pages hosting).
 
-Run development server
+## 🌍 Deployment
+
+- Code pushed to GitHub repository  
+- GitHub Pages is set to serve from the `/docs` folder
+
+**Live URL:**  
+https://karthikeya1104.github.io/KeshavSoft_Task_2/
+
+## ✅ Deliverables
+
+- Recreated pages from Task 1 (Home, About, Contact)  
+- Uses Nunjucks for templating  
+- Uses Vite for dev server  
+- Hosted via GitHub Pages# Internship Task 2 – Nunjucks + Vite
+
+## 📌 Objective
+Recreate Task 1 using:
+- **Nunjucks** as the templating engine
+- **Vite** as the bundler/task runner
+
+## 📂 Folder Structure
+- `src/templates/` → Nunjucks templates (.njk)
+- `src/assets/` → CSS, JS, images
+- `docs/` → Compiled HTML output (for GitHub Pages)
+
+## 🛠️ How to Run
+### Install dependencies and run build and run development server
+npm install
+
+npm run build
 
 npm run dev
+   
+Final output files are available inside the `/docs` folder (used for GitHub Pages hosting).
 
+## 🌍 Deployment
 
-👉 Final compiled files will be inside the /docs folder (for GitHub Pages hosting).
+- Code pushed to GitHub repository  
+- GitHub Pages is set to serve from the `/docs` folder
 
-🌍 Deployment
+**Live URL:**  
+https://karthikeya1104.github.io/KeshavSoft_Task_2/
 
-Code is pushed to GitHub repository
+## ✅ Deliverables
 
-GitHub Pages is configured to serve from the /docs folder
-
-Live URL:
-https://Venkat079.github.io/TASK2/
-
-✅ Deliverables
-
-Home, About, and Contact pages built with Nunjucks
-
-Bootstrap 5 styling with responsive layout
-
-Development powered by Vite
-
-Deployed live on GitHub Pages
+- Recreated pages from Task 1 (Home, About, Contact)  
+- Uses Nunjucks for templating  
+- Uses Vite for dev server  
+- Hosted via GitHub Pages
