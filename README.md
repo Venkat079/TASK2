@@ -43,7 +43,7 @@ Code is pushed to GitHub repository
 GitHub Pages is configured to serve from the /docs folder
 
 Live URL:
-https://<your-username>.github.io/acmecloud-task2/
+https://Venkat079.github.io/TASK2/
 
 ✅ Deliverables
 
