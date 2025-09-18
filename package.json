@@ -1,0 +1,23 @@
+{
+  "name": "keshavsoft-task2",
+  "version": "1.0.0",
+  "description": "Internship Task 2 with Nunjucks and Vite",
+  "scripts": {
+    "build": "node src/render.js",
+    "dev": "npm run build && vite",
+    "start": "npm run dev",
+    "watch": "chokidar 'src/templates/**/*.njk' -c 'npm run build'"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "nunjucks": "^3.2.4",
+    "vite": "^7.1.6"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.2"
+  }
+}
